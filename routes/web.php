@@ -11,14 +11,12 @@
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+Route::get('/', function () {
+    return view('home');
+});
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-
-Route::get('/','UploadFileController@index');
 Route::post('/uploadfile','UploadFileController@showUploadFile')->name('uploadfile');
 Route::get('/getdata/{id}','UploadFileController@getdata')->name('getdata');

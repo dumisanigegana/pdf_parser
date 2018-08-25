@@ -1,4 +1,4 @@
-###<p align="center"> PDF Parser In Laravel</p>
+#PDF Parser In Laravel
 
 ## Description 
 

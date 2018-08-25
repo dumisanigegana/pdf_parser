@@ -1,11 +1,22 @@
 <p align="center">PDF Parser In Laravel</p>
 
 ## Description 
+
 This simple app returns strings that are inbetween two words from the uploaded PDF file.
 
 ## Installation
 
-Clone this repository to your web server and on the terminal nevigate to the project directory and run the the command "composer install" without quotes.  
+Clone this repository to your web server.
+
+After cloning, in the project directory run:
+
+```composer install```
+
+Duplicate ```.env.example``` and rename it ```.env```
+
+Then run:
+
+```php artisan key:generateand```.  
 
 ## Usage
 
@@ -22,8 +33,6 @@ Example:
 ```echo '<b>Order ID: </b>'.$order_id```
 
 Open the  project in browser as follows, (suppose your project name is pdf_parser), "yourdomain/pdf_parser/public". Upload the pdf 
-
-
 
 ## License
 
